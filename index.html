@@ -12,6 +12,8 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@700;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+    integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link href="style.css" rel="stylesheet" type="text/css" />
   <title>Frontend Mentor | Sunnyside agency landing page</title>
@@ -34,6 +36,17 @@
         <li class="nav-header-item">Projects</li>
         <li class="nav-header-item" id="item-first">Contact</li>
       </ul>
+      <button type="button" class="button-primary" id="modal-button"><i class="fas fa-align-justify"></i></button>
+      
+      <div class="nav-modal"id="modal" >
+        <ul class="nav-modal-content" >
+          <li class="nav-modal-item">About</li>
+          <li class="nav-modal-item">Services</li>
+          <li class="nav-modal-item">Projects</li>
+          <li class="nav-modal-item" id="item-first">Contact</li>
+        </ul>
+      </div>
+      <script src='modal.js'></script>
     </nav>
     <img class="img-responsive-egg" src="images/mobile/image-transform.jpg">
   </header>
@@ -128,6 +141,7 @@
       <img class="img-responsive-gallery" src="images/mobile/image-gallery-sugar-cubes.jpg">
     </div>
   </section>
+
   <footer>
     <div class="container-footer">
 
@@ -159,7 +173,8 @@
 
 
   <div class="attribution">
-    Challenge by <a class="attribution-link" href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Challenge by <a class="attribution-link" href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend
+      Mentor</a>.
     Coded by <a class="attribution-link" href="https://github.com/Thomasfouquereau">thomas</a>.
   </div>
 
